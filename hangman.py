@@ -4,7 +4,7 @@ import sys
 import time
 
 #I use sys.stdout write and flush a lot
-#I know that print() is the same as sys.stdout.flush()
+#I know that print() is the same as sys.stdout.write()
 #but i think being consistent is nicer (use sys.stdout for both)
 
 def hangman(word, guesses, padding=0):
